@@ -1,15 +1,17 @@
 package pre_entrega_01;
 
 public class Pruebas {
-    private GestorCursos gestorCursos = new GestorCursos();
-    private GestorAlumnos gestorAlumnos = new GestorAlumnos();
+    private GestorCliente gestorCliente = new GestorCliente();
+    private GestorProducto gestorProducto = new GestorProducto();
 
     public static void main(String[] args) {
        Pruebas pruebas = new Pruebas();
-        pruebas.gestorCursos.create("Java",25000,2);
-        pruebas.gestorCursos.create("React.js",24000,5);
+        pruebas.gestorCliente.create("Axel","Acevedo",40652478,26);
+        pruebas.gestorCliente.create("Luciano","Lucianin",55465,5);
+        pruebas.gestorCliente.create("Abril","Abrilin",70272758,1);
 
-        pruebas.gestorAlumnos.create("Axel", "Acevedo",26,8);
-        pruebas.gestorAlumnos.create("Luciano", "Lucianin",19,4);
+        pruebas.gestorProducto.create("Java", 15500,5);
+        pruebas.gestorProducto.create("React.js", 20000,3);
+        pruebas.gestorProducto.create("Angular", 18500,1);
     }
 }

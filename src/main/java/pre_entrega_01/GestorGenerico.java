@@ -1,7 +1,6 @@
 package pre_entrega_01;
 
 import jakarta.persistence.*;
-import jakarta.persistence.*;
 
 public class GestorGenerico {
 
